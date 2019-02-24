@@ -4,7 +4,7 @@ node_js:
 cache:
   yarn: true
 services:
-- postgresql
+- postgresql: "11.1"
 addons:
   sauce_connect:
     username: $SAUCE_USERNAME
