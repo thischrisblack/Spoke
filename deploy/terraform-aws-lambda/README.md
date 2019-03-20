@@ -2,13 +2,7 @@
 
 ## Prerequisites
 
-You will need Claudia.js to package Spoke:
-
-```sh
-$ npm install -g claudia
-```
-
-You will also need Terraform to provision AWS resources. See their [download page](https://www.terraform.io/downloads.html).
+You will need Terraform to provision AWS resources. See their [download page](https://www.terraform.io/downloads.html).
 
 ## Deploying Spoke
 
@@ -34,7 +28,7 @@ $ terraform init
 This will compile and package the Spoke server- and client-side applications and provide you with the appropriate `terraform apply` command to run.
 
 ```sh
-$ ./bin/build --path ../Spoke \
+$ npm run deploy:lambda -- \
       --domain spoke.domain.com \
       --bucket spoke.domain.com \
       --region us-east-1
@@ -45,5 +39,5 @@ $ ./bin/build --path ../Spoke \
 For complete usage of the build script, see:
 
 ```sh
-$ ./bin/build --help
+$ npm run deploy:lambda -- --help
 ```
