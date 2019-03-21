@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/MoveOnOrg/Spoke.svg?branch=main)](https://travis-ci.org/MoveOnOrg/Spoke)
+[![Build Status](https://travis-ci.org/spokecommunity/Spoke.svg?branch=main)](https://travis-ci.org/spokecommunity/Spoke)
 
 [![Sauce Test Status](https://saucelabs.com/buildstatus/opensourcemoveon)](https://saucelabs.com/u/opensourcemoveon)
 # Spoke
